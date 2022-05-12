@@ -6,8 +6,16 @@ picture {
   }
   img {
     border-radius: 50%;
-    width: 100px;
+    width: 100%;
   }
   img.disabled {
     opacity: 0.3;
+  }
+
+  picture.is-small{
+    width: 50px;
+  }
+
+  picture.is-large{
+    width: 150px;
   }
